@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reserva de Carro</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Reserva de Carros</h1>
+    <label for="car-select">Escolha um carro:</label>
+    <select id="car-select">
+      <option value="Toyota Corolla">Toyota Corolla</option>
+      <option value="Honda Civic">Honda Civic</option>
+      <option value="Ford Focus">Ford Focus</option>
+    </select>
+
+    <label for="tech-select">Escolha um técnico:</label>
+    <select id="tech-select">
+      <option value="João">João</option>
+      <option value="Maria">Maria</option>
+      <option value="Carlos">Carlos</option>
+    </select>
+
+    <button id="save-button">Salvar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
