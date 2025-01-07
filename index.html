@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reserva de Carro</title>
   <link rel="stylesheet" href="styles.css">
-  <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"></script>
 </head>
 <body>
   <div class="container">
@@ -26,11 +24,14 @@
     </select>
 
     <button id="save-button">Salvar</button>
-<p id="status-message" style="color: green; display: none;">Reserva salva com sucesso!</p>
-<p id="error-message" style="color: red; display: none;">Erro ao salvar reserva.</p>
-
+    <p id="status-message" style="color: green; display: none;">Reserva salva com sucesso!</p>
+    <p id="error-message" style="color: red; display: none;">Erro ao salvar reserva.</p>
   </div>
 
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"></script>
+  <!-- Seu script principal -->
   <script src="script.js"></script>
 </body>
 </html>
