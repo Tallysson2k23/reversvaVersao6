@@ -4,13 +4,14 @@ import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/9.15.
 
 // Configuração do Firebase
 const firebaseConfig = {
-  apiKey: "SUA_API_KEY",
-  authDomain: "SEU_AUTH_DOMAIN",
-  databaseURL: "SUA_DATABASE_URL",
-  projectId: "SEU_PROJECT_ID",
-  storageBucket: "SEU_STORAGE_BUCKET",
-  messagingSenderId: "SEU_MESSAGING_SENDER_ID",
-  appId: "SEU_APP_ID"
+    apiKey: "AIzaSyBzfan0YmyXqZBta-fkopDjTa7z-zdB0NM",
+    authDomain: "reserva-de-carros.firebaseapp.com",
+    databaseURL: "https://reserva-de-carros-default-rtdb.firebaseio.com",
+    projectId: "reserva-de-carros",
+    storageBucket: "reserva-de-carros.firebasestorage.app",
+    messagingSenderId: "242198935354",
+    appId: "1:242198935354:web:3ad94cdfeffb1ccd28c203",
+    measurementId: "G-W9Z2XNEBKC"
 };
 
 // Inicializar Firebase
